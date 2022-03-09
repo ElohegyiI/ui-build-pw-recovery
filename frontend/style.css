@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* css reset */
+
+section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 520px) {
+    section {
+      background-color: #f2f2f2;
+    }
+  }
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #006837;
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 520px) {
+    h1 {
+      font-size: 24px;
+    }
+  }
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 520px;
+    background-color: #F9C582;
+    height: auto;
+}
+
+@media screen and (max-width: 520px) {
+    .box {
+      width: 100%;
+    }
+  }
+
+.box p {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 16px; 
+    color: #467745;
+    padding: 20px;
+    
+}
+
+.box input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+    width: calc(100% - 40px);
+    height: 64px;
+    color: #98A991;
+    background-color: #f2f2f2;
+    margin: 20px;
+    
+}
+
+@media screen and (max-width: 520px) {
+    .box input {
+      font-size: 16px;
+      max-width: 480px;
+      
+    }
+  }
+
+  button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-color: #F9C582;
+    color: #006837;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
